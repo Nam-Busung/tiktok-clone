@@ -1,11 +1,20 @@
+import React from "react";
 import "./App.css";
 import Video from "./Video";
 
 function App() {
   return (
-    //BEM naming convention
+    //BEN
     <div className="app">
       <div className="app__videos">
+        <Video />
+        <Video />
+        <Video />
+        <Video />
+        <Video />
+        <Video />
+        <Video />
+        <Video />
         <Video />
         <Video />
       </div>
